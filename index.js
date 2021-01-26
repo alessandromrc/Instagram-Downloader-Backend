@@ -42,5 +42,6 @@ app.get('/', function(req, res) {
         console.log(err);
     }
 })
+const port = process.env.PORT || 80;
 
-app.listen(80)
+app.listen(port)
